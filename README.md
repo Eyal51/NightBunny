@@ -11,13 +11,14 @@ For example:
 - When its time to wake up the bunny lights in colorful lights - the joy of starting a new day
   
 The wemos is programed to OTA updates to allow for easy changes to the firmware, hours, colors etc. without the need to open and disassemble. It also hosts a webserver for logs.
-The hours are counted by the Wemos, but updated through NTP once a day.
+The hours are counted by the Wemos, but updated through NTP once a day.  
 BTW - NTP is mandatory, and if no WiFi or NTP - no lights.
 I could have gone for the RTC route, but this one seemed more complicated, so ¯\\_(ツ)\_/¯
 
 ## Circuit
 
 Designed in EasyEDA and manufactured on JLCPCB. In the source files theres the schematics and the JSON for the PCB in EasyEDA.
+The PCB external diameter is 9cm, or 0.69 bananas in imperial units.
 
 [![PCB](https://raw.githubusercontent.com/Eyal51/NightBunny/main/PCB_design.png.png "PCB")](https://raw.githubusercontent.com/Eyal51/NightBunny/main/PCB_design.png.png "PCB")
 
