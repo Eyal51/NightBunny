@@ -2,8 +2,10 @@
 
 The purpose of this project is to replace the PCB in the bottom of the night lamp bunny bought from Ali with RGB one, powered by Wemos D1 mini.
 The goal is to use the RGB lights and programing of the Wemos to allow for toddlers to understand different times of the day without reading a clock.
+
 [![Bunny](https://raw.githubusercontent.com/Eyal51/NightBunny/main/nightbunny.jpeg "Bunny")](https://raw.githubusercontent.com/Eyal51/NightBunny/main/nightbunny.jpeg "Bunny")
 [![Circuit](https://raw.githubusercontent.com/Eyal51/NightBunny/main/circuit%20working.jpeg "Circuit")](https://raw.githubusercontent.com/Eyal51/NightBunny/main/circuit%20working.jpeg "Circuit")
+
 For example:
 - During the night time the bunny is Red, which means sleep time. This also allows for a night light which does not interfere with night vision for both toddlers and parents
 - When its time to wake up the bunny lights in colorful lights - the joy of starting a new day
@@ -16,6 +18,7 @@ I could have gone for the RTC route, but this one seemed more complicated, so ¯
 ## Circuit
 
 Designed in EasyEDA and manufactured on JLCPCB. In the source files theres the schematics and the JSON for the PCB in EasyEDA.
+
 [![PCB](https://raw.githubusercontent.com/Eyal51/NightBunny/main/PCB_design.png.png "PCB")](https://raw.githubusercontent.com/Eyal51/NightBunny/main/PCB_design.png.png "PCB")
 
 ## Installation
